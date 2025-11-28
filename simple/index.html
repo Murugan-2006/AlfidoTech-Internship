@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stylish Webpage</title>
+
+    <style>
+        /* ===== Global Styles ===== */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: rgba(255,255,255,0.15);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 40px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            color: #ffeb3b;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin: 25px 0;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.07);
+        }
+
+        .bio {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+        }
+
+        .bio p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #ffe;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 35px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Murugan</h1>
+        <div class="subtitle">Web Developer • IT Student • Tech Learner</div>
+
+        <img src="https://via.placeholder.com/200x200" alt="My Photo">
+
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Murugan, a passionate IT student exploring the world of web 
+                development and software engineering. I love building projects, 
+                solving problems, and learning modern technologies like JavaScript, React, 
+                Node.js, and more.  
+                <br><br>
+                My goal is to become a skilled full-stack developer and create applications 
+                that help people in real life.
+            </p>
+        </div>
+
+        <div class="footer">
+            © 2025 Murugan — copy All Rights Reserved
+        </div>
+
+    </div>
+
+</body>
+</html>
